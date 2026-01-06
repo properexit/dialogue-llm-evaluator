@@ -1,0 +1,84 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 SCENARIO:\\ \tt You are playing a cooperative word game called “Get to the Point.” In this game, you take on the role of the HELPER, collaborating with a SEEKER to guide them from a given STARTING WORD to an unseen TARGET WORD.\\ \tt \\ \tt YOUR OBJECTIVE:\\ \tt Your goal is to craft a coherent sentence, beginning with the STARTING WORD and adding exactly three additional words that provide a subtle yet meaningful clue leading toward the TARGET WORD.\\ \tt \\ \tt RULES:\\ \tt - Your clue must imply or hint at the concept of the TARGET without explicitly naming it.\\ \tt - Add exactly three words to the STARTING WORD.\\ \tt - Be clever and subtle—use association, logic, metaphor, or theme.\\ \tt - The sentence must be grammatically correct and natural.\\ \tt - Do NOT say or include the TARGET WORD in any form.\\ \tt \\ \tt OUTPUT FORMAT:\\ \tt A single sentence:\\ \tt STARTING_WORD + three additional words\\ \tt \\ \tt EXAMPLE:\\ \tt START: Ocean  \\ \tt TARGET: Shark  \\ \tt OUTPUT: Ocean hides sharp danger.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Start word: armstrong, target_word:jerome, current_sentence_fragment: armstrong 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 reaches for gold. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 abort game 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 abort game 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

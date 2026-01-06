@@ -1,0 +1,204 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 ---------------------------------------------------------------------\\ \tt YOUR ROLE: HELPER\\ \tt ---------------------------------------------------------------------\\ \tt \\ \tt ### Role Description\\ \tt You are a **HELPER** in a collaborative word-guessing activity.\\ \tt Your objective is to guide the 'Seeker' (another participant who does *not* know the Target Word) to guess the secret 'Target Word'.\\ \tt \\ \tt The secret 'Target Word' for this round is:\\ \tt lamp\\ \tt \\ \tt ### Your Task & Rules\\ \tt When it is your turn:\\ \tt \\ \tt 1.  **Receive Information:** You will be given the 'Current Sentence Fragment'. This fragment has been built by you and other Helpers in previous turns (or is the initial @[STARTING_WORD]@ on the first Helper's turn).\\ \tt 2.  **Your Action - Add Words:**\\ \tt     *   You must add **1 to 3 words** to the END of the `Current Sentence Fragment`.\\ \tt 3.  **Constraints on Your Addition:**\\ \tt     *   **Do NOT reveal the 'Target Word' lamp or its direct synonyms.** This is a critical rule.\\ \tt     *   Your added words must make the sentence remain **coherent and grammatically correct**.\\ \tt     *   Your additions should **cleverly guide** the Seeker to guess the word lamp as efficiently as possible.\\ \tt     *   You are under time pressure therefore keep your responses crisp and adhere to the rules of the game\\ \tt \\ \tt ### Output Format Instructions\\ \tt Respond with ONLY the 1 to 3 words you are adding. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 bedside 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 table 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 table 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 ---------------------------------------------------------------------\\ \tt YOUR ROLE: SEEKER\\ \tt ---------------------------------------------------------------------\\ \tt \\ \tt ### Role Description\\ \tt You are a **SEEKER** in a collaborative word-guessing activity.\\ \tt Your mission is to identify a secret 'Target Word' known only to other participants ('Helpers').\\ \tt Helpers will build a sentence, clue by clue, and present it to you to guide your guess.\\ \tt \\ \tt ### Your Task & Rules\\ \tt \\ \tt 1.  **Guessing the Target Word:**\\ \tt     *   On each of your turns, you will be presented with the 'Current Sentence Fragment'. This fragment is collaboratively built by the Helpers.\\ \tt     *   Based *only* on this `Current Sentence Fragment`, you must guess the 'Target Word'.\\ \tt     *   Your guess must be the exact 'Target Word'. Synonyms are incorrect.\\ \tt     *   If your guess is wrong, Helpers will add more words to the sentence for your next attempt.\\ \tt \\ \tt 2.  **Objective Completion:**\\ \tt     *   The activity ends when you correctly guess the exact 'Target Word'.\\ \tt \\ \tt ### Output Format Instructions\\ \tt When it is your turn to guess:\\ \tt Respond with ONLY your single guessed word.\\ \tt You are under time pressure so answer as quickly as possible. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 bedside table 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Nightstand 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 nightstand 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 bedside table nightstand 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 light bulb 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 light bulb 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 bedside table nightstand light bulb 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Lamp 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 lamp 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 end game 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

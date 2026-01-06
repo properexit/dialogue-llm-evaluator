@@ -1,0 +1,1 @@
+{"round scores": {"0": {"Request Count": 1, "Violated Request Count": 0, "Parsed Request Count": 1, "Request Success Ratio": 1.0, "Accuracy": 0}}, "episode scores": {"Request Count": 1, "Parsed Request Count": 1, "Violated Request Count": 0, "Request Success Ratio": 1.0, "Aborted": 0, "Lose": 1, "Success": 0, "Main Score": 0}}

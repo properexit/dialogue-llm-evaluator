@@ -1,0 +1,20 @@
+{
+    "experiments": [
+
+        {
+            "name": "exp_level_low_english",
+            "game_instances": [
+                {
+                    "game_id": 0,
+                    "start_word": "navigator",
+                    "target_word": "user",
+                    "similarity": 0.3998,
+                    "current_sentence_fragment": "navigator"
+                }
+            ],
+            "initial_prompt_seeker": "You are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nRules:\n(a) You can make one guess at each trial.\n(b) You win when you guess the target word.\n(c) You lose when you cannot guess it in $N$ tries.\n\nEnd conditions:\n(i) You guess the start word\n(ii) You run out of tries\n\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\noutput format:\nMake your guesses by just saying the word using the following form GUESS: <a word> newline COT:<Chain Of Thought>\n\n\nLet us start.\nADHERE TO THE RULES!!!",
+            "initial_prompt_helper": "You are playing a collaborative word guessing game in which you have to make a clever sentence that leads to a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form CLUE: <start word + 3 words> newline COT:<Chain Of Thought>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself in your clever sentence.\n\nEnd conditions:\n(i) If you use the target word in your description, then you lose.\n(ii) If the other player can guess the target word in $N$ tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to cleverly make the other guess:\n$TARGET_WORD$\n\nThis is the start word that you need to add your words to:\n$START_WORD$\n\nImportant: You are under time pressure, give short descriptions that are to the point!\nADHERE TO THE RULES!!!\n",
+            "maximum_seeker_guesses": 7
+        }
+    ]
+}

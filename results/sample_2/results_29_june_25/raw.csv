@@ -1,0 +1,154 @@
+,game,model,experiment,episode,metric,value
+0,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Request Count,1.0
+1,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Parsed Request Count,1.0
+2,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Violated Request Count,0.0
+3,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Request Success Ratio,1.0
+4,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Aborted,0.0
+5,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Lose,1.0
+6,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Success,0.0
+7,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Main Score,0.0
+8,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Request Count,4.0
+9,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Parsed Request Count,4.0
+10,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Violated Request Count,0.0
+11,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Request Success Ratio,1.0
+12,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Aborted,0.0
+13,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Lose,0.0
+14,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Success,1.0
+15,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Main Score,50.0
+16,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Request Count,4.0
+17,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Parsed Request Count,4.0
+18,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Violated Request Count,0.0
+19,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Request Success Ratio,1.0
+20,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Aborted,0.0
+21,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Lose,0.0
+22,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Success,1.0
+23,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Main Score,50.0
+24,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Request Count,2.0
+25,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Parsed Request Count,2.0
+26,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Violated Request Count,0.0
+27,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Request Success Ratio,1.0
+28,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Aborted,0.0
+29,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Lose,0.0
+30,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Success,1.0
+31,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Main Score,100.0
+32,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Request Count,4.0
+33,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Parsed Request Count,4.0
+34,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Violated Request Count,0.0
+35,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Request Success Ratio,1.0
+36,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Aborted,0.0
+37,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Lose,0.0
+38,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Success,1.0
+39,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Main Score,50.0
+40,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Request Count,2.0
+41,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Parsed Request Count,2.0
+42,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Violated Request Count,0.0
+43,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Request Success Ratio,1.0
+44,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Aborted,0.0
+45,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Lose,0.0
+46,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Success,1.0
+47,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Main Score,100.0
+48,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Request Count,2.0
+49,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Parsed Request Count,2.0
+50,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Violated Request Count,0.0
+51,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Request Success Ratio,1.0
+52,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Aborted,0.0
+53,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Lose,1.0
+54,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Success,0.0
+55,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Main Score,0.0
+56,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Request Count,3.0
+57,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Parsed Request Count,3.0
+58,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Violated Request Count,0.0
+59,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Request Success Ratio,1.0
+60,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Aborted,0.0
+61,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Lose,1.0
+62,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Success,0.0
+63,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Main Score,0.0
+64,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Request Count,3.0
+65,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Parsed Request Count,3.0
+66,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Violated Request Count,0.0
+67,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Request Success Ratio,1.0
+68,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Aborted,0.0
+69,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Lose,1.0
+70,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Success,0.0
+71,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Main Score,0.0
+72,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Request Count,4.0
+73,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Parsed Request Count,4.0
+74,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Violated Request Count,0.0
+75,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Request Success Ratio,1.0
+76,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Aborted,0.0
+77,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Lose,0.0
+78,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Success,1.0
+79,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Main Score,50.0
+80,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Request Count,5.0
+81,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Parsed Request Count,5.0
+82,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Violated Request Count,0.0
+83,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Request Success Ratio,1.0
+84,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Aborted,0.0
+85,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Lose,1.0
+86,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Success,0.0
+87,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Main Score,0.0
+88,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Request Count,1.0
+89,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Parsed Request Count,1.0
+90,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Violated Request Count,0.0
+91,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Request Success Ratio,1.0
+92,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Aborted,0.0
+93,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Lose,1.0
+94,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Success,0.0
+95,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Main Score,0.0
+96,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Request Count,2.0
+97,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Parsed Request Count,2.0
+98,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Violated Request Count,0.0
+99,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Request Success Ratio,1.0
+100,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Aborted,0.0
+101,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Lose,0.0
+102,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Success,1.0
+103,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Main Score,100.0
+104,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Request Count,2.0
+105,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Parsed Request Count,2.0
+106,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Violated Request Count,0.0
+107,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Request Success Ratio,1.0
+108,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Aborted,0.0
+109,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Lose,0.0
+110,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Success,1.0
+111,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Main Score,100.0
+112,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Request Count,4.0
+113,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Parsed Request Count,4.0
+114,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Violated Request Count,0.0
+115,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Request Success Ratio,1.0
+116,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Aborted,0.0
+117,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Lose,0.0
+118,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Success,1.0
+119,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Main Score,50.0
+120,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Request Count,6.0
+121,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Parsed Request Count,6.0
+122,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Violated Request Count,0.0
+123,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Request Success Ratio,1.0
+124,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Aborted,0.0
+125,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Lose,1.0
+126,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Success,0.0
+127,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Main Score,0.0
+128,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Request Count,1.0
+129,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Parsed Request Count,1.0
+130,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Violated Request Count,0.0
+131,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Request Success Ratio,1.0
+132,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Aborted,0.0
+133,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Lose,1.0
+134,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Success,0.0
+135,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Main Score,0.0
+136,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_0,Played,1.0
+137,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,0_high_en,episode_1,Played,1.0
+138,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_0,Played,1.0
+139,taboo,gemini-1.5-flash-002-t0.0--gemini-1.5-flash-002-t0.0,1_medium_en,episode_1,Played,1.0
+140,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_0,Played,1.0
+141,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_1,Played,1.0
+142,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_2,Played,1.0
+143,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_3,Played,1.0
+144,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_4,Played,1.0
+145,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_5,Played,1.0
+146,get_to_the_point,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_exp_level_1_en,episode_6,Played,1.0
+147,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_0,Played,1.0
+148,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,0_high_en,episode_1,Played,1.0
+149,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_0,Played,1.0
+150,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,1_medium_en,episode_1,Played,1.0
+151,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_0,Played,1.0
+152,taboo,gpt-3.5-turbo-1106-t0.0--gpt-3.5-turbo-1106-t0.0,2_low_en,episode_1,Played,1.0

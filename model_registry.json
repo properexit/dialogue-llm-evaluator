@@ -1,0 +1,24 @@
+[
+    {
+        "model_name": "gemma-3-27b",
+        "model_id": "google/gemma-3-27b-it",
+        "backend": "openai_compatible",
+        "release_date": "2025-03-19",
+        "open_weight": true,
+        "parameters": "27B",
+        "languages": [
+            "en",
+            "de"
+        ],
+        "context_size": "100k",
+        "license": {},
+        "model_config": {
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    }
+]
